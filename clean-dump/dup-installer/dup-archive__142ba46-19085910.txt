@@ -1,0 +1,728 @@
+{
+    "dup_type": "lite",
+    "created": "2023-01-19 08:59:10",
+    "version_dup": "1.5.1",
+    "version_wp": "6.1.1",
+    "version_db": "5.7.40",
+    "version_php": "7.4.28",
+    "version_os": "Linux",
+    "blogname": "Slider test",
+    "exportOnlyDB": 0,
+    "secure_on": false,
+    "secure_pass": "$2a$08$Rywcd5tP3VVuh6ZWXtNFduDCrgaApQCjQ4BjkjlntvaRGcfxpGXeK",
+    "dbhost": null,
+    "dbname": null,
+    "dbuser": null,
+    "dbpass": null,
+    "cpnl_host": null,
+    "cpnl_user": null,
+    "cpnl_pass": null,
+    "cpnl_enable": null,
+    "wp_tableprefix": "wp_",
+    "mu_mode": 0,
+    "mu_generation": 0,
+    "mu_siteadmins": [
+        "admin"
+    ],
+    "subsites": [
+        {
+            "id": 1,
+            "domain": "yappie.io",
+            "path": "\/test\/",
+            "blogname": "Slider test",
+            "blog_prefix": "wp_",
+            "filteredTables": [],
+            "adminUsers": [
+                {
+                    "ID": "4",
+                    "user_login": "test",
+                    "id": "4"
+                },
+                {
+                    "ID": "3",
+                    "user_login": "yappie_dev",
+                    "id": "3"
+                }
+            ],
+            "fullHomeUrl": "https:\/\/yappie.io\/test",
+            "fullSiteUrl": "https:\/\/yappie.io\/test",
+            "uploadPath": "wp-content\/uploads",
+            "fullUploadPath": "\/var\/www\/html\/test\/wp-content\/uploads",
+            "fullUploadSafePath": "\/var\/www\/html\/test\/wp-content\/uploads",
+            "fullUploadUrl": "https:\/\/yappie.io\/test\/wp-content\/uploads",
+            "filteredPaths": []
+        }
+    ],
+    "main_site_id": 1,
+    "mu_is_filtered": false,
+    "license_limit": 0,
+    "dbInfo": {
+        "buildMode": "MYSQLDUMP",
+        "charSetList": [
+            "utf8mb4",
+            "latin1",
+            "utf8"
+        ],
+        "collationList": [
+            "latin1_swedish_ci",
+            "utf8_general_ci",
+            "utf8mb4_unicode_520_ci",
+            "utf8mb4_unicode_ci"
+        ],
+        "engineList": [
+            "InnoDB"
+        ],
+        "isTablesUpperCase": 1,
+        "isNameUpperCase": 0,
+        "name": "slider_test_db",
+        "tablesBaseCount": 52,
+        "tablesFinalCount": 52,
+        "muFilteredTableCount": 0,
+        "tablesRowCount": 4233,
+        "tablesSizeOnDisk": 4079616,
+        "tablesList": {
+            "wp_commentmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_comments": {
+                "inaccurateRows": 0,
+                "insertedRows": 1,
+                "size": 98304
+            },
+            "wp_duplicator_packages": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 32768
+            },
+            "wp_gf_draft_submissions": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_gf_entry": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_gf_entry_meta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 65536
+            },
+            "wp_gf_entry_notes": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_gf_form": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_gf_form_meta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_gf_form_revisions": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_gf_form_view": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_links": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_lockdowns": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_login_fails": {
+                "inaccurateRows": 6,
+                "insertedRows": 6,
+                "size": 16384
+            },
+            "wp_options": {
+                "inaccurateRows": 248,
+                "insertedRows": 252,
+                "size": 1605632
+            },
+            "wp_postmeta": {
+                "inaccurateRows": 138,
+                "insertedRows": 138,
+                "size": 81920
+            },
+            "wp_posts": {
+                "inaccurateRows": 58,
+                "insertedRows": 58,
+                "size": 131072
+            },
+            "wp_rg_form": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_rg_form_meta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_rg_form_view": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_rg_incomplete_submissions": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_rg_lead": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_rg_lead_detail": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 81920
+            },
+            "wp_rg_lead_detail_long": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_rg_lead_meta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 65536
+            },
+            "wp_rg_lead_notes": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_termmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_terms": {
+                "inaccurateRows": 11,
+                "insertedRows": 11,
+                "size": 49152
+            },
+            "wp_term_relationships": {
+                "inaccurateRows": 12,
+                "insertedRows": 12,
+                "size": 32768
+            },
+            "wp_term_taxonomy": {
+                "inaccurateRows": 11,
+                "insertedRows": 11,
+                "size": 49152
+            },
+            "wp_usermeta": {
+                "inaccurateRows": 31,
+                "insertedRows": 31,
+                "size": 49152
+            },
+            "wp_users": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 65536
+            },
+            "wp_wfBadLeechers": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_wfBlockedIPLog": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_wfBlocks": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_wfBlocksAdv": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_wfConfig": {
+                "inaccurateRows": 117,
+                "insertedRows": 117,
+                "size": 16384
+            },
+            "wp_wfCrawlers": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_wfFileMods": {
+                "inaccurateRows": 2720,
+                "insertedRows": 2681,
+                "size": 393216
+            },
+            "wp_wfHits": {
+                "inaccurateRows": 10,
+                "insertedRows": 10,
+                "size": 49152
+            },
+            "wp_wfHoover": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_wfIssues": {
+                "inaccurateRows": 3,
+                "insertedRows": 3,
+                "size": 16384
+            },
+            "wp_wfLeechers": {
+                "inaccurateRows": 0,
+                "insertedRows": 1,
+                "size": 16384
+            },
+            "wp_wfLockedOut": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_wfLocs": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_wfLogins": {
+                "inaccurateRows": 15,
+                "insertedRows": 15,
+                "size": 32768
+            },
+            "wp_wfNet404s": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_wfReverseCache": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_wfScanners": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_wfStatus": {
+                "inaccurateRows": 850,
+                "insertedRows": 850,
+                "size": 212992
+            },
+            "wp_wfThrottleLog": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_wfVulnScanners": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            }
+        },
+        "varLowerCaseTables": "0",
+        "dbEngine": "MySQL",
+        "version": "5.7.40",
+        "versionComment": "(Ubuntu)",
+        "viewCount": 0,
+        "procCount": 0,
+        "funcCount": 0,
+        "triggerList": []
+    },
+    "packInfo": {
+        "packageId": 2,
+        "packageName": "yappie_clean_dump",
+        "packageHash": "142ba46-19085910",
+        "secondaryHash": "9e10861-19085910"
+    },
+    "fileInfo": {
+        "dirCount": 539,
+        "fileCount": 3994,
+        "size": 30386494
+    },
+    "wpInfo": {
+        "version": "6.1.1",
+        "is_multisite": false,
+        "network_id": 1,
+        "targetRoot": "\/var\/www\/html\/test",
+        "targetPaths": [
+            "\/var\/www\/html\/test"
+        ],
+        "adminUsers": [
+            {
+                "ID": "4",
+                "user_login": "test",
+                "id": "4"
+            },
+            {
+                "ID": "3",
+                "user_login": "yappie_dev",
+                "id": "3"
+            }
+        ],
+        "configs": {
+            "defines": {
+                "ABSPATH": {
+                    "value": "\/var\/www\/html\/test\/",
+                    "inWpConfig": true
+                },
+                "DB_CHARSET": {
+                    "value": "utf8",
+                    "inWpConfig": true
+                },
+                "DB_COLLATE": {
+                    "value": "",
+                    "inWpConfig": true
+                },
+                "AUTH_KEY": {
+                    "value": "W>@G8oB>),k8vE0:PJ;`vr:maw=(?7M:YK%Lgk*O+(blWlY0plOfq|<\/z:>=]QmS",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_KEY": {
+                    "value": "bc;JW|b-luSs{$6!><[aXkN.:Tf,p=fgSaQb#].0xY|%mn3oHmW\/h%a1u%:81z&5",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_KEY": {
+                    "value": "Qa||OaVe8-r] a,LIn>Vw]F 3w\/a$98(As.[kPnX|+<O-wR YSal?i>Lte5`xloM",
+                    "inWpConfig": true
+                },
+                "NONCE_KEY": {
+                    "value": ",v>m|<x[z}Uo &Y0l-m~|?}=>>|^1Eg-#eM|I+prb:R05\/z) y>c8XQk7Z(#%7jc",
+                    "inWpConfig": true
+                },
+                "AUTH_SALT": {
+                    "value": "ac~$08vYO-0T=,PTT,O *K++U?7%r% U@QzX8AxNx7`>&CVD(Zj%tX_$?)I)Y,yD",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_SALT": {
+                    "value": "%^rQ-cKD4feMkiNl]&h*6DsTCn+Dm_!@Ns$4i-oWG*^]I?02\/<r,[iW=y[<S9tRc",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_SALT": {
+                    "value": "P\/lCDGr3zJhYF#,98f3Ew`G-A@%i9MI6~s{Irg2{}%-b,T@_9{#=#xG{<<yLf{TU",
+                    "inWpConfig": true
+                },
+                "NONCE_SALT": {
+                    "value": ">q3%nKNhh7yQg^X+P*K(5t&%YIC=S`xz]#69$;9:`LTf=FA;k-0dlQSFq.wk-@DR",
+                    "inWpConfig": true
+                },
+                "WP_CONTENT_DIR": {
+                    "value": "\/var\/www\/html\/test\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_CONTENT_URL": {
+                    "value": "https:\/\/yappie.io\/test\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_DIR": {
+                    "value": "\/var\/www\/html\/test\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_URL": {
+                    "value": "https:\/\/yappie.io\/test\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "PLUGINDIR": {
+                    "value": "wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "AUTOSAVE_INTERVAL": {
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "WP_POST_REVISIONS": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "COOKIE_DOMAIN": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "MULTISITE": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "SCRIPT_DEBUG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_LOG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_DISPLAY": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "WP_MEMORY_LIMIT": {
+                    "value": "40M",
+                    "inWpConfig": false
+                },
+                "WP_MAX_MEMORY_LIMIT": {
+                    "value": "2048M",
+                    "inWpConfig": false
+                },
+                "WP_CACHE": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_LANG_DIR": {
+                    "value": "\/var\/www\/html\/test\/wp-content\/languages",
+                    "inWpConfig": false
+                },
+                "FS_METHOD": {
+                    "value": "direct",
+                    "inWpConfig": true
+                },
+                "WP_CRON_LOCK_TIMEOUT": {
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "COOKIEPATH": {
+                    "value": "\/test\/",
+                    "inWpConfig": false
+                },
+                "SITECOOKIEPATH": {
+                    "value": "\/test\/",
+                    "inWpConfig": false
+                },
+                "ADMIN_COOKIE_PATH": {
+                    "value": "\/test\/wp-admin",
+                    "inWpConfig": false
+                },
+                "PLUGINS_COOKIE_PATH": {
+                    "value": "\/test\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "TEMPLATEPATH": {
+                    "value": "\/var\/www\/html\/test\/wp-content\/themes\/clean_theme",
+                    "inWpConfig": false
+                },
+                "STYLESHEETPATH": {
+                    "value": "\/var\/www\/html\/test\/wp-content\/themes\/clean_theme",
+                    "inWpConfig": false
+                },
+                "EMPTY_TRASH_DAYS": {
+                    "value": 30,
+                    "inWpConfig": false
+                },
+                "FORCE_SSL_ADMIN": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_DIR": {
+                    "value": "\/var\/www\/html\/test\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_URL": {
+                    "value": "https:\/\/yappie.io\/test\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "MUPLUGINDIR": {
+                    "value": "wp-content\/mu-plugins",
+                    "inWpConfig": false
+                }
+            },
+            "realValues": {
+                "siteUrl": "https:\/\/yappie.io\/test",
+                "homeUrl": "https:\/\/yappie.io\/test",
+                "loginUrl": "https:\/\/yappie.io\/test\/wp-login.php",
+                "contentUrl": "https:\/\/yappie.io\/test\/wp-content",
+                "uploadBaseUrl": "https:\/\/yappie.io\/test\/wp-content\/uploads",
+                "pluginsUrl": "https:\/\/yappie.io\/test\/wp-content\/plugins",
+                "mupluginsUrl": "https:\/\/yappie.io\/test\/wp-content\/mu-plugins",
+                "themesUrl": "https:\/\/yappie.io\/test\/wp-content\/themes",
+                "originalPaths": {
+                    "home": "\/var\/www\/html\/test",
+                    "abs": "\/var\/www\/html\/test",
+                    "wpconfig": "\/var\/www\/html\/test",
+                    "wpcontent": "\/var\/www\/html\/test\/wp-content",
+                    "uploads": "\/var\/www\/html\/test\/wp-content\/uploads",
+                    "plugins": "\/var\/www\/html\/test\/wp-content\/plugins",
+                    "muplugins": "\/var\/www\/html\/test\/wp-content\/mu-plugins",
+                    "themes": "\/var\/www\/html\/test\/wp-content\/themes"
+                },
+                "archivePaths": {
+                    "home": "\/var\/www\/html\/test",
+                    "abs": "\/var\/www\/html\/test",
+                    "wpconfig": "\/var\/www\/html\/test",
+                    "wpcontent": "\/var\/www\/html\/test\/wp-content",
+                    "uploads": "\/var\/www\/html\/test\/wp-content\/uploads",
+                    "plugins": "\/var\/www\/html\/test\/wp-content\/plugins",
+                    "muplugins": "\/var\/www\/html\/test\/wp-content\/mu-plugins",
+                    "themes": "\/var\/www\/html\/test\/wp-content\/themes"
+                }
+            }
+        },
+        "plugins": {
+            "advanced-custom-fields-pro\/acf.php": {
+                "slug": "advanced-custom-fields-pro\/acf.php",
+                "name": "Advanced Custom Fields PRO",
+                "version": "6.0.7",
+                "pluginURI": "https:\/\/www.advancedcustomfields.com",
+                "author": "WP Engine",
+                "authorURI": "https:\/\/wpengine.com\/?utm_source=wordpress.org&utm_medium=referral&utm_campaign=plugin_directory&utm_content=advanced_custom_fields",
+                "description": "Customize WordPress with powerful, professional and intuitive fields.",
+                "title": "Advanced Custom Fields PRO",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "custom-post-type-ui\/custom-post-type-ui.php": {
+                "slug": "custom-post-type-ui\/custom-post-type-ui.php",
+                "name": "Custom Post Type UI",
+                "version": "1.13.4",
+                "pluginURI": "https:\/\/github.com\/WebDevStudios\/custom-post-type-ui\/",
+                "author": "WebDevStudios",
+                "authorURI": "https:\/\/webdevstudios.com\/",
+                "description": "Admin UI panel for registering custom post types and taxonomies in WordPress",
+                "title": "Custom Post Type UI",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "duplicator\/duplicator.php": {
+                "slug": "duplicator\/duplicator.php",
+                "name": "Duplicator",
+                "version": "1.5.1",
+                "pluginURI": "https:\/\/snapcreek.com\/duplicator\/duplicator-free\/",
+                "author": "Snap Creek",
+                "authorURI": "http:\/\/www.snapcreek.com\/duplicator\/",
+                "description": "Migrate and backup a copy of your WordPress files and database. Duplicate and move a site from one location to another quickly.",
+                "title": "Duplicator",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            }
+        },
+        "themes": {
+            "clean_theme": {
+                "slug": "clean_theme",
+                "themeName": "Yappie.io clean theme",
+                "version": "1.0",
+                "themeURI": "#",
+                "parentTheme": false,
+                "template": "clean_theme",
+                "stylesheet": "clean_theme",
+                "description": "Fully Responsive WordPress Theme",
+                "author": "Yappie.io Digital",
+                "authorURI": "http:\/\/yappie.io",
+                "tags": [],
+                "isAllowed": true,
+                "isActive": true,
+                "defaultTheme": false
+            },
+            "twentytwentythree": {
+                "slug": "twentytwentythree",
+                "themeName": "Twenty Twenty-Three",
+                "version": "1.0",
+                "themeURI": "https:\/\/wordpress.org\/themes\/twentytwentythree",
+                "parentTheme": false,
+                "template": "twentytwentythree",
+                "stylesheet": "twentytwentythree",
+                "description": "Twenty Twenty-Three is designed to take advantage of the new design tools introduced in WordPress 6.1. With a clean, blank base as a starting point, this default theme includes ten diverse style variations created by members of the WordPress community. Whether you want to build a complex or incredibly simple website, you can do it quickly and intuitively through the bundled styles or dive into creation and full customization yourself.",
+                "author": "the WordPress team",
+                "authorURI": "https:\/\/wordpress.org",
+                "tags": [
+                    "one-column",
+                    "custom-colors",
+                    "custom-menu",
+                    "custom-logo",
+                    "editor-style",
+                    "featured-images",
+                    "full-site-editing",
+                    "block-patterns",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "threaded-comments",
+                    "translation-ready",
+                    "wide-blocks",
+                    "block-styles",
+                    "accessibility-ready",
+                    "blog",
+                    "portfolio",
+                    "news"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": true
+            },
+            "twentytwentytwo": {
+                "slug": "twentytwentytwo",
+                "themeName": "Twenty Twenty-Two",
+                "version": "1.3",
+                "themeURI": "https:\/\/wordpress.org\/themes\/twentytwentytwo\/",
+                "parentTheme": false,
+                "template": "twentytwentytwo",
+                "stylesheet": "twentytwentytwo",
+                "description": "Built on a solidly designed foundation, Twenty Twenty-Two embraces the idea that everyone deserves a truly unique website. The theme\u2019s subtle styles are inspired by the diversity and versatility of birds: its typography is lightweight yet strong, its color palette is drawn from nature, and its layout elements sit gently on the page. The true richness of Twenty Twenty-Two lies in its opportunity for customization. The theme is built to take advantage of the Site Editor features introduced in WordPress 5.9, which means that colors, typography, and the layout of every single page on your site can be customized to suit your vision. It also includes dozens of block patterns, opening the door to a wide range of professionally designed layouts in just a few clicks. Whether you\u2019re building a single-page website, a blog, a business website, or a portfolio, Twenty Twenty-Two will help you create a site that is uniquely yours.",
+                "author": "the WordPress team",
+                "authorURI": "https:\/\/wordpress.org\/",
+                "tags": [
+                    "one-column",
+                    "custom-colors",
+                    "custom-menu",
+                    "custom-logo",
+                    "editor-style",
+                    "featured-images",
+                    "full-site-editing",
+                    "block-patterns",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "threaded-comments",
+                    "accessibility-ready"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": false
+            }
+        }
+    },
+    "opts_delete": "[\"duplicator_ui_view_state\",\"duplicator_package_active\",\"duplicator_settings\",\"duplicator_is_pro_enable_notice_dismissed\"]",
+    "brand": {
+        "name": "Duplicator",
+        "isDefault": true,
+        "logo": "<i class=\"fa fa-bolt fa-sm\"><\/i> Duplicator",
+        "enabled": false,
+        "style": []
+    },
+    "overwriteInstallerParams": {
+        "blogname": {
+            "value": "Slider test"
+        }
+    },
+    "installer_base_name": "installer.php.bak",
+    "installer_backup_name": "yappie_clean_dump_142ba4671909bfbc6800_20230119085910_installer-backup.php",
+    "package_name": "yappie_clean_dump_142ba4671909bfbc6800_20230119085910_archive.zip",
+    "package_hash": "142ba46-19085910",
+    "package_notes": ""
+}

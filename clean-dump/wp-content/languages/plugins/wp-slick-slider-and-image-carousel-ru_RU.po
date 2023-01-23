@@ -1,0 +1,405 @@
+# Translation of Plugins - WP Slick Slider and Image Carousel - Development (trunk) in Russian
+# This file is distributed under the same license as the Plugins - WP Slick Slider and Image Carousel - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-02-23 08:56:38+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - WP Slick Slider and Image Carousel - Development (trunk)\n"
+
+#: includes/admin/wpsisac-how-it-work.php:170
+msgid "Grab Slick Slider Now"
+msgstr "Возьмите Slick Slider прямо сейчас"
+
+#: includes/admin/wpsisac-how-it-work.php:83
+msgid "Check Documentation"
+msgstr "Ознакомиться с документацией"
+
+#. Author of the plugin
+msgid "WP OnlineSupport, Essential Plugin"
+msgstr "WP OnlineSupport, Essential Plugin"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.essentialplugin.com/wordpress-plugins/wp-slick-slider-and-image-carousel/"
+msgstr "https://www.essentialplugin.com/wordpress-plugins/wp-slick-slider-and-image-carousel/"
+
+#: includes/admin/metabox/wpsisac-post-setting-metabox-pro.php:95
+msgid "Gutenberg Block, Elementor, Bevear Builder, SiteOrigin, Divi, Visual Composer and Fusion Page Builder Support"
+msgstr "Поддержка блоков Gutenberg, Elementor, Bevear Builder, SiteOrigin, Divi, Visual Composer и Fusion Page Builder"
+
+#: includes/admin/metabox/wpsisac-post-setting-metabox-pro.php:92
+msgid "Page Builder Support "
+msgstr "Поддержка Page Builder "
+
+#: includes/admin/metabox/wpsisac-post-setting-metabox-pro.php:87
+msgid "Arrange your desired slides with your desired order and display."
+msgstr "Расположите слайды в нужном порядке и отобразите их."
+
+#: includes/admin/metabox/wpsisac-post-setting-metabox-pro.php:84
+msgid "Drag & Drop Slide Order Change "
+msgstr "Перетащить и изменить порядок слайдов "
+
+#: includes/admin/metabox/wpsisac-post-setting-metabox-pro.php:79
+msgid "Play with all shortcode parameters with preview panel. No documentation required."
+msgstr "Воспроизведение всех параметров шорткада с помощью панели предварительного просмотра. Документация не требуется."
+
+#: includes/admin/metabox/wpsisac-post-setting-metabox-pro.php:76
+msgid "Shortcode Generator "
+msgstr "Генератор шорткодов "
+
+#: includes/admin/metabox/wpsisac-post-setting-metabox-pro.php:68
+msgid "WP Templating Features "
+msgstr "Возможности шаблонов WP "
+
+#: includes/admin/metabox/wpsisac-post-setting-metabox-pro.php:55
+msgid "Thumbnail navigation support to some designs."
+msgstr "Поддержка навигации по миниатюрам в некоторых дизайнах."
+
+#: includes/admin/metabox/wpsisac-post-setting-metabox-pro.php:52
+msgid "Navigation Support "
+msgstr "Поддержка навигации "
+
+#: includes/admin/metabox/wpsisac-post-setting-metabox-pro.php:44
+msgid "Dots Design "
+msgstr "Дизайн точек "
+
+#: includes/admin/metabox/wpsisac-post-setting-metabox-pro.php:39
+#: includes/admin/metabox/wpsisac-post-setting-metabox-pro.php:47
+msgid " In lite version only one design."
+msgstr " В версии lite только один дизайн."
+
+#: includes/admin/metabox/wpsisac-post-setting-metabox-pro.php:36
+msgid "Arrows design "
+msgstr "Дизайн стрелок "
+
+#: includes/admin/metabox/wpsisac-post-setting-metabox-pro.php:31
+msgid " In lite version only 5+ design."
+msgstr " В версии lite только 5+ дизайн."
+
+#: includes/admin/metabox/wpsisac-post-setting-metabox-pro.php:28
+msgid "Designs "
+msgstr "Дизайны "
+
+#: includes/admin/metabox/wpsisac-post-setting-metabox-pro.php:20
+#: includes/admin/metabox/wpsisac-post-setting-metabox-pro.php:28
+#: includes/admin/metabox/wpsisac-post-setting-metabox-pro.php:36
+#: includes/admin/metabox/wpsisac-post-setting-metabox-pro.php:44
+#: includes/admin/metabox/wpsisac-post-setting-metabox-pro.php:52
+#: includes/admin/metabox/wpsisac-post-setting-metabox-pro.php:60
+#: includes/admin/metabox/wpsisac-post-setting-metabox-pro.php:68
+#: includes/admin/metabox/wpsisac-post-setting-metabox-pro.php:76
+#: includes/admin/metabox/wpsisac-post-setting-metabox-pro.php:84
+#: includes/admin/metabox/wpsisac-post-setting-metabox-pro.php:92
+#: includes/admin/metabox/wpsisac-post-setting-metabox-pro.php:100
+msgid "PRO"
+msgstr "PRO"
+
+#: includes/admin/metabox/wpsisac-post-setting-metabox-pro.php:20
+msgid "Layouts "
+msgstr "Макеты "
+
+#: includes/admin/class-wpsisac-admin.php:108
+msgid "More Premium - Settings"
+msgstr "Премиум - Настройки"
+
+#: includes/admin/wpsisac-how-it-work.php:161
+msgid "Fusion Page Builder (Avada) native support.<span class=\"wpos-new-feature\">New</span>"
+msgstr "Встроенная поддержка Fusion Page Builder (Avada). <span class=\"wpos-new-feature\">Новое</span>"
+
+#: includes/admin/wpsisac-how-it-work.php:163
+msgid "Custom CSS"
+msgstr "Пользовательский CSS"
+
+#: includes/admin/wpsisac-how-it-work.php:160
+msgid "Divi Page Builder Native Support.<span class=\"wpos-new-feature\">New</span>"
+msgstr "Встроенная поддержка Divi Page Builder. <span class=\"wpos-new-feature\">Новинка</span>"
+
+#: includes/admin/wpsisac-how-it-work.php:119
+msgid "Step-3. Add any block of slick slider and you will find its relative options on the right end side."
+msgstr "Шаг-3. Добавьте любой блок slick slider, и вы найдете его относительные параметры на правой стороне."
+
+#: includes/admin/wpsisac-how-it-work.php:118
+msgid "Step-2. Search \"Slick Slider\" keyword in the Gutenberg block list."
+msgstr "Шаг-2. Найдите ключевое слово \"Slick Slider\" в списке блоков Gutenberg."
+
+#: includes/admin/wpsisac-how-it-work.php:117
+msgid "Step-1. Go to the Gutenberg editor of your page."
+msgstr "Шаг 1. Перейдите в редактор Gutenberg вашей страницы."
+
+#: includes/admin/wpsisac-how-it-work.php:113
+msgid "How it Work"
+msgstr "Как это работает"
+
+#: includes/admin/wpsisac-how-it-work.php:105
+msgid "Gutenberg Support"
+msgstr "Поддержка Gutenberg"
+
+#: includes/wpsisac-post-types.php:22
+msgid "slick slider"
+msgstr "slick slider"
+
+#: includes/wpsisac-post-types.php:21 includes/wpsisac-post-types.php:33
+msgid "Slick Slider"
+msgstr "Slick Slider"
+
+#: includes/admin/class-wpsisac-admin.php:105
+msgid "WP Slick Slider and Image Carousel - Settings"
+msgstr "WP Slick Slider and Image Carousel - Настройки"
+
+#: includes/admin/wpsisac-how-it-work.php:138
+msgid "5 stars!"
+msgstr "5 звезд!"
+
+#: includes/admin/wpsisac-how-it-work.php:138
+msgid "Enjoyed this plugin? You can help by rate this plugin"
+msgstr "Понравился этот плагин? Вы можете помочь нам, поставив оценку этому плагину"
+
+#: includes/admin/wpsisac-how-it-work.php:167
+msgid "100% Multi language"
+msgstr "100% многоязычный"
+
+#: includes/admin/wpsisac-how-it-work.php:166
+msgid "Fully responsive"
+msgstr "Полная совместимость"
+
+#: includes/admin/wpsisac-how-it-work.php:165
+msgid "Slider RTL support"
+msgstr "Слайдер с поддержкой RTL"
+
+#: includes/admin/wpsisac-how-it-work.php:164
+msgid "Slider Center Mode Effect"
+msgstr "Эффект режима центра слайдера"
+
+#: includes/admin/wpsisac-how-it-work.php:155
+msgid "33 Slider Variable width Designs"
+msgstr "33 слайдера с изменяемой шириной"
+
+#: includes/admin/wpsisac-how-it-work.php:154
+msgid "30 Image Carousel and Center Slider Designs"
+msgstr "30 дизайнов карусели изображений и центрального слайдера"
+
+#: includes/admin/wpsisac-how-it-work.php:153
+msgid "30 Image Slider Designs"
+msgstr "30 дизайнов слайдеров изображений"
+
+#: includes/admin/wpsisac-how-it-work.php:156
+msgid "Drag & Drop order change"
+msgstr "Изменение порядка методом Перетащить и оставить"
+
+#: includes/admin/wpsisac-how-it-work.php:152
+msgid "90+ Predefined stunning designs"
+msgstr "90+ готовых потрясающих дизайнов"
+
+#: includes/admin/wpsisac-how-it-work.php:158
+msgid "WPBakery Page Builder Supports"
+msgstr "Поддержка WPBakery Page Builder"
+
+#: includes/admin/wpsisac-how-it-work.php:157
+msgid "Gutenberg Block Supports"
+msgstr "Поддержка блоков Gutenberg"
+
+#: includes/admin/metabox/wpsisac-post-setting-metabox-pro.php:71
+msgid "You can modify plugin html/designs in your current theme."
+msgstr "Вы можете изменить html/дизайн плагина в вашей текущей теме."
+
+#: includes/admin/wpsisac-how-it-work.php:162
+msgid "WP Templating Features"
+msgstr "Возможности шаблонов WP"
+
+#: includes/admin/wpsisac-how-it-work.php:169
+msgid "Gain access to"
+msgstr "Получите доступ к"
+
+#. Description of the plugin
+msgid "Easy to add and display wp slick image slider and carousel. Also added Gutenberg block support."
+msgstr "Легко добавить и отобразить слайдер изображений и карусель. Также добавлена поддержка блоков Gutenberg."
+
+#: wp-slick-image-slider.php:183
+msgid "It looks like you had PRO version %s of this plugin activated. To avoid conflicts the extra version has been deactivated and we recommend you delete it."
+msgstr "Похоже, у вас активирована PRO версия %s этого плагина. Во избежание конфликтов дополнительная версия была деактивирована, и мы рекомендуем вам удалить ее."
+
+#: wp-slick-image-slider.php:182
+msgid "Thank you for activating %s"
+msgstr "Спасибо за активацию %s"
+
+#: wpos-analytics/wpos-analytics.php:60 wpos-analytics/wpos-analytics.php:72
+msgid "Cheatin&#8217; huh?"
+msgstr "Хакер, что ли?"
+
+#: wpos-analytics/includes/class-anylc-admin.php:405
+#: wpos-analytics/includes/class-anylc-admin.php:424
+#: wpos-analytics/includes/class-anylc-admin.php:443
+msgid "Sorry, Something happened wrong."
+msgstr "Извините, что-то пошло не так."
+
+#: wpos-analytics/includes/class-anylc-admin.php:230
+msgid "Opt In"
+msgstr "Принять участие"
+
+#: wpos-analytics/includes/class-anylc-admin.php:224
+msgid "Opt Out"
+msgstr "Отказаться"
+
+#: includes/admin/class-wpsisac-admin.php:54
+msgid "Upgrade To PRO - WP Slick Slider and Image Carousel"
+msgstr "Обновление до PRO - WP Slick Slider and Image Carousel"
+
+#: includes/wpsisac-function.php:111
+msgid "Design 5"
+msgstr "Дизайн 5"
+
+#: includes/wpsisac-function.php:110
+msgid "Design 4"
+msgstr "Дизайн 4"
+
+#: includes/wpsisac-function.php:109
+msgid "Design 3"
+msgstr "Дизайн 3"
+
+#: includes/wpsisac-function.php:108
+msgid "Design 2"
+msgstr "Дизайн 2"
+
+#: includes/wpsisac-function.php:107 includes/wpsisac-function.php:123
+msgid "Design 1"
+msgstr "Дизайн 1"
+
+#: includes/admin/wpsisac-how-it-work.php:134
+msgid "Help to improve this plugin!"
+msgstr "Помогите улучшить плагин!"
+
+#: includes/admin/wpsisac-how-it-work.php:80
+msgid "Documentation"
+msgstr "Документация"
+
+#: includes/admin/wpsisac-how-it-work.php:74
+msgid "Slick slider carousel with variable width Shortcode (design-6)"
+msgstr "Шорткод изменяемой ширины для карусели Slick Slider (дизайн-6)"
+
+#: includes/admin/wpsisac-how-it-work.php:73
+msgid "Slick slider carousel with center mode Shortcode (design-6)"
+msgstr "Шорткод центрального режима для карусели Slick Slider (дизайн-6)"
+
+#: includes/admin/wpsisac-how-it-work.php:72
+msgid "Slick slider carousel Shortcode (design-6)"
+msgstr "Шорткод карусели Slick Slider (дизайн-6)"
+
+#: includes/admin/wpsisac-how-it-work.php:71
+msgid "Slick slider Shortcode (design-1 to design-5)"
+msgstr "Шорткод Slick Slider (от дизайна-1 до дизайна-5)"
+
+#: includes/admin/wpsisac-how-it-work.php:68
+msgid "All Shortcodes"
+msgstr "Все шорткоды"
+
+#: includes/admin/wpsisac-how-it-work.php:61
+msgid "Step-2. Put below shortcode as per your need."
+msgstr "Шаг 2. Поместите ниже шорткод в соответствии с вашими потребностями."
+
+#: includes/admin/wpsisac-how-it-work.php:60
+msgid "Step-1. Create a page like Slider OR add the shortcode in any page."
+msgstr "Шаг 1. Создайте страницу, например Слайдер, или добавьте шорткод на любую страницу."
+
+#: includes/admin/wpsisac-how-it-work.php:56
+msgid "How Shortcode Works"
+msgstr "Как работает шорткод"
+
+#: includes/admin/wpsisac-how-it-work.php:49
+msgid "Step-4. To display multiple slider, you can use category shortcode under \"Slick Slider--> Slider Category\""
+msgstr "Шаг 4. Чтобы отобразить несколько слайдеров, вы можете использовать шорткод рубрики в разделе \"Slick Slider--> Slider Category\""
+
+#: includes/admin/wpsisac-how-it-work.php:48
+msgid "Step-3. Repeat this process for number of slides you want."
+msgstr "Шаг 3. Повторите этот процесс для нужного вам кол-ва слайдов."
+
+#: includes/admin/wpsisac-how-it-work.php:47
+msgid "Step-2. Add image title, description and images as a featured image"
+msgstr "Шаг 2. Добавьте заголовок изображения, описание и изображения в качестве избранного изображения"
+
+#: includes/admin/wpsisac-how-it-work.php:46
+msgid "Step-1. Go to \"Slick Slider --> Add Slide tab\"."
+msgstr "Шаг 1. Перейдите на вкладку \"Slick Slider --> Add Slide\"."
+
+#: includes/admin/wpsisac-how-it-work.php:34
+msgid "How It Works - Display and Shortcode"
+msgstr "Как это работает - отображение и шорткод"
+
+#: includes/admin/class-wpsisac-admin.php:48
+#: includes/admin/wpsisac-how-it-work.php:24
+msgid "How It Works"
+msgstr "Как это работает"
+
+#: includes/admin/class-wpsisac-admin.php:48
+msgid "How it works, our plugins and offers"
+msgstr "Как это работает, наши плагины и предложения"
+
+#. Plugin Name of the plugin
+#: includes/admin/wpsisac-how-it-work.php:169
+msgid "WP Slick Slider and Image Carousel"
+msgstr "WP Slick Slider and Image Carousel"
+
+#: includes/admin/metabox/wpsisac-post-metabox.php:23
+msgid "Read More Link"
+msgstr "Ссылка Подробнее"
+
+#: includes/wpsisac-post-types.php:78
+msgid "New Category Name"
+msgstr "Название новой рубрики"
+
+#: includes/wpsisac-post-types.php:77
+msgid "Add New Category"
+msgstr "Добавить новую рубрику"
+
+#: includes/wpsisac-post-types.php:76
+msgid "Update Category"
+msgstr "Обновить рубрику"
+
+#: includes/wpsisac-post-types.php:75
+msgid "Edit Category"
+msgstr "Изменить рубрику"
+
+#: includes/wpsisac-post-types.php:73
+msgid "Parent Category"
+msgstr "Родительская рубрика"
+
+#: includes/wpsisac-post-types.php:72
+msgid "All Category"
+msgstr "Все рубрики"
+
+#: includes/wpsisac-post-types.php:71
+msgid "Search Category"
+msgstr "Поиск рубрики"
+
+#: includes/wpsisac-post-types.php:31
+msgid "No Slick Slider Items found in Trash"
+msgstr "Элементы Slick Slider не найдены в корзине"
+
+#: includes/wpsisac-post-types.php:30
+msgid "No Slick Slider Items found"
+msgstr "Элементы Slick Slider не найдены"
+
+#: includes/wpsisac-post-types.php:28
+msgid "View Slick Slider"
+msgstr "Посмотреть Slick Slider"
+
+#: includes/wpsisac-post-types.php:27
+msgid "New Slick Slider"
+msgstr "Новый Slick Slider"
+
+#: includes/wpsisac-post-types.php:26
+msgid "Edit Slick Slider"
+msgstr "Изменить Slick Slider"
+
+#: includes/wpsisac-post-types.php:25
+msgid "Add New slide"
+msgstr "Добавить новый слайд"
+
+#: templates/slider/design-2.php:25 templates/slider/design-3.php:24
+#: templates/slider/design-4.php:22 templates/slider/design-5.php:22
+msgid "Read More"
+msgstr "Подробнее"

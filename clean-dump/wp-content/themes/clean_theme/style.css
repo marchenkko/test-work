@@ -1,0 +1,226 @@
+/**
+ * Theme Name:   Yappie.io clean theme
+ * Theme URI:    #
+ * Author:       Yappie.io Digital
+ * Author URI:   yappie.io
+ * Version:      1.0
+ * License:      GNU General Public License v2
+ * License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ * Description:  Fully Responsive WordPress Theme
+**/
+
+
+/* -----------------------------------------
+   WordPress Core Classes
+----------------------------------------- */
+.alignnone {margin: 0 1em 1em 0;}
+.alignright {float:right; margin:0 0 1em 1em}
+.alignleft {float:left; margin:0 1em 1em 0}
+.aligncenter {display: block; margin-left: auto; margin-right: auto}
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+.wp-caption.alignnone {margin: 0 1em 1em 0;}
+.wp-caption.alignleft {float:left; margin:0 1em 1em 0}
+.wp-caption.alignright {float:right; margin:0 0 1em 1em}
+.wp-caption-text {  }
+.sticky {  }
+.gallery-caption {  }
+.bypostauthor {  }
+body#tinymce.wp-editor {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+body#tinymce.wp-editor a {
+    color: #4CA6CF;
+}
+/* -----------------------------------------
+   General fixes
+----------------------------------------- */
+#wpadminbar {
+    opacity: 0.3;
+    transition: 0.2s opacity linear;
+    -webkit-transform: translateZ(0);
+}
+#wpadminbar:hover, 
+#wpadminbar:focus{ opacity: 1; }
+body {-webkit-font-smoothing: antialiased;}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+input[type=button] {	
+    -webkit-appearance: none;
+    -moz-appearance:none;
+}
+
+/* Placeholder Styling */
+::-webkit-input-placeholder { color: #333; }
+::-moz-placeholder          { color: #333; }
+::-o-placeholder            { color: #333; }
+:-ms-input-placeholder      { color: #333; }
+input:-moz-placeholder      { color: #333; }
+
+/* Input Styling */
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="week"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea { /* STYLES GO THERE */ }
+embed, iframe, object { max-width: 100%; }
+
+/* Align Middle */
+.align-middle {
+    -o-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+/*Centered FlexBox crossbrowser*/
+.centered-flexbox {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+/* -----------------------------------------
+   Typography
+----------------------------------------- */
+a:focus {outline:none;}
+p:empty {display: none;}
+body,h1,h2,h3,h4,h5,h6,p,a {font-family: 'Open Sans', sans-serif;}
+h1,h2,h3,h4,h5,h6{font-weight: 400;}
+img.alignright {float:right; margin:0 0 1em 1em}
+img.alignleft {float:left; margin:0 1em 1em 0}
+img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+
+
+/* -----------------------------------------
+    Clearfix
+----------------------------------------- */
+.clearfix:before, .clearfix:after {
+    content: "\0020";
+    display: block; 
+    height: 0; 
+    overflow: hidden;
+}
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+
+/* ------------------------------------
+    Slider
+------------------------------------- */
+#home-slider .slider-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    background: rgba(0, 0, 0, .6);
+    
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+
+    -webkit-touch-callout: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+
+    padding: 5px 10px;
+}
+#home-slider .slider-caption p,
+#home-slider .slider-caption h3 {
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.slider-caption h3 {
+    font-size: 24px;
+}
+
+@media only screen and (max-width: 40em) {
+    #home-slider .slider-caption{
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        max-width: 100%;
+        background: #000;
+        transform: translate(0,0);
+        -webkit-transform: translate(0,0);
+        -moz-transform: translate(0,0);
+        -ms-transform: translate(0,0);
+        -o-transform: translate(0,0);
+    }
+    #home-slider .slick-prev, .slick-next{
+        display: none !important;
+    }
+    #home-slider .slider-caption p{
+        font-size: 12px;
+        text-shadow: none;
+        font-weight: 600;
+    }
+
+}
+/* ------------------------------------
+    Basic Styles
+------------------------------------- */
+
+
+/* ------------------------------------
+    Header Styles
+------------------------------------- */
+
+
+/* ------------------------------------
+    Content Styles
+------------------------------------- */
+
+
+/* ------------------------------------
+    Footer Styles
+------------------------------------- */
